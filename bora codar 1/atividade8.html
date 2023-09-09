@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var um = parseFloat(prompt("digite o 1º número: ")); 		
+		var dois = parseFloat(prompt("digite o 2º número: ")); 		
+		var tres = parseFloat(prompt("digite o 3º número: ")); 		
+		var quatro = parseFloat(prompt("digite o 4º número: ")); 		 		
+		var soma = 0;  		
+		if (um>0 &&  um<10) { 			
+			soma = soma+um 		
+		} 		
+		if (dois>0 && dois<10) { 			
+			soma = soma+dois 		
+		} 		
+		if (tres>0 && tres<10) { 			
+			soma = soma+tres 		
+		} 		
+		if (quatro>0 && quatro<10) { 			
+			soma = soma+quatro 		
+		}  		
+		var media = soma/4  		
+		if (media >= 5) { 			
+			document.write("Você passou no teste com uma media de: " + media + "<br>"); 		
+		}
+		else{ 			
+			document.write("Tente novamente"); 		
+		}
+	</script>
+</body>
+</html>

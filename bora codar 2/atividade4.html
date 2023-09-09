@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script>
+		var lado = parseInt(prompt("digite a quantidade de lados: "));
+		var medida = parseFloat(prompt("digite a medida de cada lado: "));
+
+		var res
+		if (lado == 3) {
+			document.write("TRIANGULO")
+			res = medida*3
+			document.write("O seu perimetro é: " + res)
+		}
+		else if(lado == 4){
+			document.write("Quadrado")
+			document.write("sua área é de: " + (medida*medida))
+		}
+		else if(lado == 5){
+			document.write("Pentagono")
+		}
+		else if (lado <3 ) {
+			document.write("Não é um poligno")
+		}
+		else{
+			document.write("poligno não identificado")
+		}
+	</script>
+</body>
+</html>
